@@ -5,21 +5,6 @@ const Messages = () => {
   return (
     <div>
       <Message />
-      <Message />
-
-      <Message />
-
-      <Message />
-
-      <Message />
-
-      <Message />
-
-      <Message />
-
-      <Message />
-
-
     </div>
   );
 };
