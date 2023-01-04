@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -12,7 +13,7 @@ const Login = () => {
           <input style={{ display: "none" }} type="file" id="file" />        
           <button>Submit</button>
         </form>
-        <p>You don't have an acount? Register</p>
+        <p>You don't have an acount? <Link to="/register">Register</Link></p>
       </div>
     </div>
   );
